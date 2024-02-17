@@ -49,6 +49,7 @@ body {
 }
 
 /* Home Page style */
+
 .home {
     position: relative;
     text-align: center;
@@ -202,4 +203,67 @@ body {
     font-size: 20px; /* Increase the font size */
     margin-left: 250px;
     text-align: justify;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1100px) {
+    body, .parent-container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .NavBar img {
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    .NavBar .links {
+        margin-left: 0;
+    }
+
+    .home {
+        padding: 0;
+        margin-top: 80px;
+        width: 100%;
+    }
+
+    /* Additional responsive styles for smaller screens */
+
+    .NavBar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .NavBar a {
+        margin: 10px 0;
+    }
+
+    .home h1 {
+        font-size: 40px;
+    }
+
+    .home p {
+        font-size: 16px;
+        margin: 40px;
+    }
+
+    .events ul {
+        grid-template-columns: 1fr; /* make the grid single column */
+        gap: 20px; /* reduce space between items */
+    }
+
+    .events li {
+        margin-left: 0; /* remove left margin */
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .text-container {
+        margin-left: 0;
+        text-align: center;
+    }
 }
