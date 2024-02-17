@@ -10,7 +10,6 @@ body {
 }
 
 /* Navigation Bar style */
-@media (max-width: 1200px) {
 .NavBar {
     background-color: #645B8C;
     padding: 15px;
@@ -203,5 +202,4 @@ body {
     font-size: 20px; /* Increase the font size */
     margin-left: 250px;
     text-align: justify;
-}
 }
