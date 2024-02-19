@@ -14,12 +14,9 @@
 
     <body>
         <div class="NavBar">
-            <img src="Assets/HIMTI_logo.png" alt="HIMTI_LOGO" class="HIMTI_LOGO">
-            <div class="hamburger-menu">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+            <a href="#home" class="active">
+                <img src="Assets/HIMTI_logo.png" alt="HIMTI_LOGO" class="HIMTI_LOGO">
+            </a>
             <div class="links">
                 <a href="#home">HOME</a>
                 <a href="#events">EVENTS</a>
@@ -29,13 +26,15 @@
         </div>
 
         <div id="home" class="home">
-            <img src="Assets/Saly-21.png" alt="saturn" class="saturn">
-            <img src="Assets/Saly-22.png" alt="Person-walking" class="Person-walking">
-            <img src="Assets/Saly-16.png" alt="person-reading" class="person-reading">
+            <img src="Assets/earth.png" alt="Earth" class="earth">
+            <img src="Assets/rocket.png" alt="Rocket" class="rocket">
+            <img src="Assets/person-with-flag.png" alt="person" class="person">
             <h1>HIMTI</h1>
-            <h1>COMPANY</h1>
-            <h1>VISIT</h1>
+            <h1>STUDY</h1>
+            <h1>TOUR</h1>
+        <a href="#events" class="learn-more">
             <p>LEARN MORE</p>
+        </a>
         </div>
 
         <div id="events" class="events">
@@ -68,18 +67,30 @@
             </ul>
         </div>
 
-        <div id="about" class="about">
+        <div class="about">
             <div class="logo-container">
                 <img src="Assets/HIMTI_logo2.png" alt="HIMTI_LOGO" class="HIMTI_LOGO2">
             </div>
             <div class="text-container">
                 <h1>ABOUT US</h1>
                 <p>
-                    Himpunanan Mahasiswa Teknik Informatika (HIMTI)
-                    Universitas Bina Nusantara adalah Organisasi Kemahasiswaan di Universitas Bina Nusantara
-                    yang berbentuk Himpunan Mahasiswa Jurusan (HMJ) untuk mahasiswa School of Computer Science (SOCS), BINUS UNIVERSITY.
+                    Himpunanan Mahasiswa Teknik Informatika (HIMTI) Universitas Bina Nusantara adalah Organisasi Kemahasiswaan di Universitas Bina Nusantara yang berbentuk Himpunan Mahasiswa Jurusan (HMJ) untuk mahasiswa School of Computer Science (SOCS), BINUS UNIVERSITY.
                 </p>
             </div>
+        </div>
+
+        <div class="contact">
+            <h1>CONTACT US</h1>
+            <h2>Let us know anything you want!</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </body>
 </html>
