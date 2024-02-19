@@ -125,12 +125,21 @@ body {
   transform-style: preserve-3d;
 }
 
+.events {
+  background-color: #ffffff;
+  padding: 100px 0;
+  margin-top: 90px;
+  margin-bottom: 360px;
+}
+
 .events ul {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   height: 100vh;
+  position: relative; /* I want to position it later because there is no picture */
+  top: -90px;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -160,8 +169,10 @@ body {
   font-family: Nunito, sans-serif;
   color: #000;
   text-align: center;
-  margin-top: 40px;
-  font-size: 30px;
+  margin-top: 0;
+  position: relative;
+  top: -100px;
+  font-size: 35px;
   font-style: normal;
   font-weight: 500;
 }
@@ -203,10 +214,18 @@ body {
 .register-button:hover {
   background-color: #1b2954; /* Change background color on hover */
 }
+
 .register-button:active {
   background-color: #1b2954; /* Change background color on click */
   text-shadow: 1px 2.5px 5px rgba(0, 144, 187, 1);
   transition-duration: 0.1s; /* Shorten the transition effect */
+}
+
+.Google_Logo {
+  width: 100%;
+  height: auto;
+  display: block;
+  
 }
 
 /* about us style */
