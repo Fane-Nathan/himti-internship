@@ -278,6 +278,65 @@ body {
   text-align: left;
 }
 
+.contact {
+  background-color: #92A1CD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.contact h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.contact p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.button {
+  background-color: #0465aa; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0px 22px 22px 0px;
+  font-size: 16px;
+}
+
+.input {
+  border: none;
+  padding: 16px;
+  border-radius: 24px 0px 0px 24px;
+  width: 240px;
+}
+
+.input-style {
+  border: solid;
+  display: flex;
+  border-radius: 24px;
+  border-color: black;
+  width: fit-content;
+}
+
+.input:focus {
+  border: none;
+  border-color: none;
+}
+
 /* Responsive styles */
 @media screen and (max-width: 1200px) {
   body,
@@ -302,6 +361,7 @@ body {
     width: 100%;
   }
 
+  
   /* Additional responsive styles for smaller screens */
 
   .NavBar {
