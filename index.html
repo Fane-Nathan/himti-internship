@@ -1,96 +1,116 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Webpage for HIMTI 2024 Internship">
-        <meta name="keywords" content="HIMTI, Internship, 2024">
-        <meta name="author" content="Group 2">
-        <title>HIMTI 2024 Internship</title>
-        <link rel="icon" href="favicon.ico" type=".....">
-        <link rel="stylesheet" type="text/css" href="HIMTI_INTERNSHIP_STYLE.css">
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Webpage for HIMTI 2024 Internship" />
+    <meta name="keywords" content="HIMTI, Internship, 2024" />
+    <meta name="author" content="Group 2" />
+    <title>HIMTI 2024 Internship</title>
+    <link rel="icon" href="favicon.ico" type="....." />
+    <link rel="stylesheet" type="text/css" href="HIMTI_INTERNSHIP_STYLE.css" />
+    <script src="HIMTI_INTERNSHIP_SCRIPT.js"></script>
+  </head>
 
-    <body>
-        <div class="NavBar">
-            <a href="#home" class="active">
-                <img src="Assets/HIMTI_logo.png" alt="HIMTI_LOGO" class="HIMTI_LOGO">
-            </a>
-            <div class="links">
-                <a href="#home">HOME</a>
-                <a href="#events">EVENTS</a>
-                <a href="#about">ABOUT US</a>
-                <a href="#contact">CONTACT US</a>
-            </div>
-        </div>
+  <body>
+    <div class="NavBar">
+      <a href="#home" class="active">
+        <img src="Assets/HIMTI_logo.png" alt="HIMTI_LOGO" class="HIMTI_LOGO" />
+      </a>
+      <div class="links">
+        <a href="#home">HOME</a>
+        <a href="#events">EVENTS</a>
+        <a href="#about">ABOUT US</a>
+        <a href="#contact">CONTACT US</a>
+      </div>
+    </div>
 
-        <div id="home" class="home">
-            <img src="Assets/earth.png" alt="Earth" class="earth">
-            <img src="Assets/rocket.png" alt="Rocket" class="rocket">
-            <img src="Assets/person-with-flag.png" alt="person" class="person">
-            <h1>HIMTI</h1>
-            <h1>STUDY</h1>
-            <h1>TOUR</h1>
-        <a href="#events" class="learn-more">
-            <p>LEARN MORE</p>
-        </a>
-        </div>
+    <div id="home" class="home">
+      <img src="Assets/earth.png" alt="Earth" class="earth" />
+      <img src="Assets/rocket.png" alt="Rocket" class="rocket" />
+      <img src="Assets/person-with-flag.png" alt="person" class="person" />
+      <h1>HIMTI</h1>
+      <h1>STUDY</h1>
+      <h1>TOUR</h1>
+      <a href="#events" class="learn-more">
+        <p>LEARN MORE</p>
+      </a>
+    </div>
 
-        <div id="events" class="events">
-            <h1>EVENTS</h1>
-            <ul>
-                <li>
-                    <h2>Google Indonesia</h2>
-                    <p>
-                        Google LLC is an American multinational technology company focusing on search engine technology,
-                        online advertising, cloud computing, computer software, quantum computing, e-commerce,
-                        artificial intelligence, and consumer electronics.
-                    </p>
-                </li>
-                <li>
-                    <h2>Tokopedia Indonesia</h2>
-                    <p>
-                        PT Tokopedia is an Indonesian e-commerce company. 
-                        Tokopedia is a subsidiary of a new holding company called GoTo, following a merger with Gojek on 17 May 2021.
-                        It is one of the most visited e-commerce platforms in Indonesia. 
-                    </p>
-                </li>
-                <li>
-                    <h2>Apple Indonesia</h2>
-                    <p>
-                        Apple Inc. is an American multinational technology company headquartered in Cupertino, California, United States.
-                        Apple is the largest technology company by revenue and, as of June 2022, 
-                        is the world's biggest company by market capitalization.
-                    </p>
-                </li>
-            </ul>
-        </div>
+    <div id="events" class="events">
+      <h1>EVENTS</h1>
+      <ul class="card-list">
+        <li class="card" id="card">
+          <h2 class="card-title">Google Indonesia</h2>
+          <p class="card-description">
+            Google LLC is an American multinational technology company focusing
+            on search engine technology, online advertising, cloud computing,
+            computer software, quantum computing, e-commerce, artificial
+            intelligence, and consumer electronics.
+          </p>
+          <p class="card-action">
+            <button class="register-button">REGISTER NOW</button>
+          </p>
+        </li>
+        <li class="card">
+          <h2 class="card-title">Tokopedia Indonesia</h2>
+          <p class="card-description">
+            PT Tokopedia is an Indonesian e-commerce company. Tokopedia is a
+            subsidiary of a new holding company called GoTo, following a merger
+            with Gojek on 17 May 2021. It is one of the most visited e-commerce
+            platforms in Indonesia.
+          </p>
+          <p class="card-action">
+            <button class="register-button">REGISTER NOW</button>
+          </p>
+        </li>
+        <li class="card">
+          <h2 class="card-title">Apple Indonesia</h2>
+          <p class="card-description">
+            Apple Inc. is an American multinational technology company
+            headquartered in Cupertino, California, United States. Apple is the
+            largest technology company by revenue and, as of June 2022, is the
+            world's biggest company by market capitalization.
+          </p>
+          <p class="card-action">
+            <button class="register-button">REGISTER NOW</button>
+          </p>
+        </li>
+      </ul>
+    </div>
 
-        <div class="about">
-            <div class="logo-container">
-                <img src="Assets/HIMTI_logo2.png" alt="HIMTI_LOGO" class="HIMTI_LOGO2">
-            </div>
-            <div class="text-container">
-                <h1>ABOUT US</h1>
-                <p>
-                    Himpunanan Mahasiswa Teknik Informatika (HIMTI) Universitas Bina Nusantara adalah Organisasi Kemahasiswaan di Universitas Bina Nusantara yang berbentuk Himpunan Mahasiswa Jurusan (HMJ) untuk mahasiswa School of Computer Science (SOCS), BINUS UNIVERSITY.
-                </p>
-            </div>
-        </div>
+    <div class="about">
+      <div class="logo-container">
+        <img
+          src="Assets/HIMTI_logo2.png"
+          alt="HIMTI_LOGO"
+          class="HIMTI_LOGO2"
+        />
+      </div>
+      <div class="text-container">
+        <h1>ABOUT US</h1>
+        <p>
+          Himpunanan Mahasiswa Teknik Informatika (HIMTI) Universitas Bina
+          Nusantara adalah Organisasi Kemahasiswaan di Universitas Bina
+          Nusantara yang berbentuk Himpunan Mahasiswa Jurusan (HMJ) untuk
+          mahasiswa School of Computer Science (SOCS), BINUS UNIVERSITY.
+        </p>
+      </div>
+    </div>
 
-        <div class="contact">
-            <h1>CONTACT US</h1>
-            <h2>Let us know anything you want!</h2>
-            <form action="submit_form.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-    </body>
+    <div class="contact">
+      <h1>CONTACT US</h1>
+      <h2>Let us know anything you want!</h2>
+      <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
 </html>
