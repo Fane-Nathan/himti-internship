@@ -5,7 +5,15 @@
   html {
     scroll-behavior: smooth;
   }
+  
+  .links {
+    display: block;
+  }
 
+  .hamburger-menu {
+    display: none;
+  }
+  
   .NavBar {
     background-color: #92a1cd;
     padding: 15px;

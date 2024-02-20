@@ -462,9 +462,9 @@ html {
 .footer {
   background-color:#405AA7;
   display: flex;
-  justify-content: space-between;
+  justify-content: f;
   align-items: center;
-  padding: 20px 195px 200px;
+  padding: 20px 195px 150px;
 }
 
 .footer p {
@@ -472,10 +472,6 @@ html {
   font-size: 20px;
   color: #ffffff;
   font-weight: 400;
-  position: relative;
-  top: 100px;
-  right: 60px;
-
 }
 
 .footer .HIMTI_LOGO3 {
@@ -516,9 +512,9 @@ html {
   font-size: 20px;
   color: #ffffff;
   font-weight: 400;
-  position: fixed; /* Change this line */
-  bottom: 0; /* Change this line */
-  right: 0; /* Change this line */
+  position: relative; /* Change this line */
+  top: 250px; /* Change this line */
+  right: 65px; /* Change this line */
   white-space: nowrap;
   width: 100%; /* Add this line */
   text-align: center; /* Add this line */

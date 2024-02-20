@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght,YTLC@0,6..12,200..1000,440..540;1,6..12,200..1000,440..540&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght,YTLC@0,6..12,200..1000,440..540;1,6..12,200..1000,440..540&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 415px) {
     html {
         scroll-behavior: smooth;
     }
@@ -10,17 +10,27 @@
         font-family: 'Nunito Sans', sans-serif;
         font-size: 30px;
         color: #ffffff;
-        margin: 0;
-        padding: 0;
-        max-width: 100%;
+        background-color: #92a1cd;
     }
     
+    .NavBar .HIMTI_LOGO {
+        position: relative;
+        left: -150px;
+        width: 50px;
+        height: 55px;
+        z-index: 1000;
+    }
+
+    .NavBar .links{
+        display: none;
+    }
+
     .hamburger-menu {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        width: 2rem;
-        height: 2rem;
+        width: 1.7cm;
+        height: 1cm;
         background: transparent;
         border: none;
         cursor: pointer;
@@ -30,11 +40,73 @@
 
     .hamburger-menu div {
         width: 2rem;
-        height: 0.25rem;
-        background: black; /* Change this to match your design */
+        height: 0.3rem;
+        background: rgb(255, 255, 255); /* Change this to match your design */
         border-radius: 10px;
         transition: all 0.3s linear;
         position: relative;
+        left: 87px;
+        top: -5px;
         transform-origin: 1px;
     }
+
+    
+    .hamburger-menu {
+        display: flex;
+    }
+    
+    .links {
+        display: none;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #ffffff;
+        text-align: center;
+        padding: 0 20px;
+    }
+    
+    .home h1 {
+        font-size: 6.5rem;
+        font-weight: 700;
+        position: relative;
+        right: -430px;
+        top: -400px;
+        margin-bottom: 0;
+    }
+
+    .home p {
+        transition: transform 0.3s;
+        position: relative;
+        top: -340px;
+        right: -429px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #405aa7;
+        padding: 21px 56px;
+        border-radius: 50px;
+        display: inline-block;
+    }
+
+    .person {
+        position: relative;
+        top: 770px;
+        right: -850px;
+        padding: 0 20px;
+    }
+
+    .earth {
+        position: relative;
+        top: -120px;
+        right: 40px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .
 }
