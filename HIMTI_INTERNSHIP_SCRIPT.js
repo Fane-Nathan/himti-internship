@@ -20,3 +20,25 @@ cards.forEach((card) => {
     this.style.transform = "rotateX(0) rotateY(0)";
   });
 });
+
+let lastScrollTop = 0;
+let navbarTimeout;
+
+window.addEventListener('scroll', () => {
+  clearTimeout(navbarTimeout);
+
+  const navbar = document.querySelector('.NavBar'); // Changed from '.navbar' to '.NavBar'
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrollTop > lastScrollTop) {
+    navbar.classList.add('navbar-hidden');
+  } else {
+    navbar.classList.remove('navbar-hidden');
+  }
+
+  lastScrollTop = scrollTop;
+
+  navbarTimeout = setTimeout(() => {
+    navbar.classList.add('navbar-hidden');
+  }, 3000); // 3 seconds
+});
