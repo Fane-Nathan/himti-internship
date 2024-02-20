@@ -21,12 +21,13 @@ html {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  position: absolute;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
   font-weight: 350;
-  transition: transform 0.3s ease-in-out;
+  transition: top 0.3s ease-in-out;
+  z-index: 1000;
 }
 
 .NavBar a {
@@ -64,7 +65,7 @@ html {
   text-align: center;
   background-color: #92a1cd;
   padding: 90px 75px;
-  margin-top: 100px;
+  margin-top: 0;
   height: 531px;
 }
 
