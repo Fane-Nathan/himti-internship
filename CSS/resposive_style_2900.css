@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght,YTLC@0,6..12,200..1000,440..540;1,6..12,200..1000,440..540&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght,YTLC@0,6..12,200..1000,440..540;1,6..12,200..1000,440..540&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 2900px) {
   body {
     font-family: "Nunito Sans", sans-serif;
     font-size: 30px;
@@ -20,8 +20,9 @@
   /* Navigation Bar style */
   .NavBar {
     background-color: #92a1cd;
-    padding: 15px;
+    padding: 25px;
     padding-right: 60px;
+    padding-bottom: 5px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -38,6 +39,7 @@
     color: #ffffff;
     text-decoration: none;
     margin: 0 30px;
+    font-size: 60px;
   }
 
   .NavBar a:hover {
@@ -50,7 +52,7 @@
   }
 
   .NavBar img {
-    height: 75px;
+    height: 135px;
     margin-left: 45px;
   }
 
@@ -70,16 +72,16 @@
     background-color: #92a1cd;
     padding: 90px 75px;
     margin-top: 0;
-    height: 531px;
+    height: 1553px;
   }
 
   .home h1 {
     position: relative;
-    right: -70px;
-    top: -630px;
+    right: -320px;
+    top: -1170px;
     font-family: "Nunito Sans", sans-serif;
-    font-size: 70px;
-    line-height: 0.65;
+    font-size: 170px;
+    line-height: 0.75;
     letter-spacing: 4px;
     text-align: left;
   }
@@ -87,14 +89,14 @@
   .home p {
     transition: transform 0.3s;
     position: relative;
-    top: -660px;
-    right: 460px;
+    top: -77rem;
+    right: 50rem;
     font-family: "Nunito Sans", sans-serif;
-    font-size: 20px;
+    font-size: 55px;
     color: #ffffff;
     background-color: #405aa7;
-    padding: 21px 56px;
-    border-radius: 50px;
+    padding: 40px 105px;
+    border-radius: 100px;
     display: inline-block;
   }
 
@@ -111,25 +113,27 @@
   /* Image style on the home section*/
   .person {
     position: relative;
-    right: 10px;
-    top: 10px;
-    width: 350px;
+    right: -35rem;
+    top: 30rem;
+    width: 45rem;
     z-index: 1;
   }
 
   .rocket {
     position: relative;
-    top: -220px;
-    width: 370px;
-    right: -30px;
+    top: -42rem;
+    width: 35rem;
+    right: -30rem;
     z-index: 2;
+    rotate: -10deg;
+    transform: scaleX(-1);
   }
 
   .earth {
     position: relative;
-    top: -485px;
-    width: 250px;
-    right: -930px;
+    top: -28rem;
+    width: 25rem;
+    right: -53rem;
     z-index: 3;
   }
 
@@ -143,7 +147,7 @@
     background-color: #ffffff;
     padding: 100px 0;
     margin-top: 90px;
-    height: 600px;
+    height: 800px;
   }
 
   .events ul {
@@ -152,7 +156,7 @@
     align-items: center;
     height: 100vh;
     position: relative; /* I want to position it later because there is no picture */
-    top: -90px;
+    top: -590px;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -168,6 +172,7 @@
     background-color: #92a1cd; /* This will set the background color of the li items */
     border-radius: 30px; /* This will round the corners of the li items */
     box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.5); /* This will add a shadow to the li items */
+    height: 20cm;
   }
 
   .events ul li {
@@ -186,7 +191,7 @@
     margin-top: 0;
     position: relative;
     top: -50px;
-    font-size: 35px;
+    font-size: 75px;
     font-style: normal;
     font-weight: 500;
   }
@@ -195,7 +200,7 @@
     font-family: "poppins", sans-serif;
     margin: 5px;
     margin-bottom: 10px;
-    font-size: 23px;
+    font-size: 43px;
     text-align: center;
     font-weight: 400;
     white-space: nowrap;
@@ -203,8 +208,10 @@
 
   .events li p {
     font-family: "poppins", sans-serif;
-    margin: 0;
-    font-size: 10px;
+    margin: 10px;
+    position: relative;
+    top: 50px;
+    font-size: 25px;
     text-align: center;
   }
 
@@ -271,7 +278,7 @@
 
   .about h1 {
     position: relative;
-    right: 270px;
+    right: 420px;
     font-family: "Nunito Sans", sans-serif;
     font-size: 50px;
     font-weight: 400;
@@ -280,16 +287,17 @@
 
   .about p {
     position: relative;
-    right: 40px;
+    right: -250px;
     font-family: "Nunito Sans", sans-serif;
-    font-size: 25px;
+    font-size: 35px;
     text-align: left;
     width: 115%;
+    padding-right: 130px;
   }
 
   .logo-container {
     position: relative;
-    right: 40px;
+    right: -280px;
     flex: 1;
     text-align: left;
     color: white; /* Change the text color to white */
@@ -477,14 +485,14 @@
 
   .footer .HIMTI_LOGO3 {
     position: relative;
-    top: 100px;
-    right: 60px;
+    top: 70px;
+    right: 10px;
   }
 
   .footer .binus_logo {
     position: relative;
-    top: 90px;
-    right: 10px;
+    top: 70px;
+    right: -60px;
   }
 
   .footer .instagram {
@@ -567,7 +575,7 @@
     font-weight: 400;
     position: relative;
     top: 250px;
-    right: 65px;
+    right: 0;
     white-space: nowrap;
     width: 100%;
     text-align: center;

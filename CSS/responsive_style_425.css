@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght,YTLC@0,6..12,200..1000,440..540;1,6..12,200..1000,440..540&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght,YTLC@0,6..12,200..1000,440..540;1,6..12,200..1000,440..540&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 426px) {
     html {
         scroll-behavior: smooth;
     }
@@ -13,16 +13,24 @@
         background-color: #92a1cd;
     }
     
+    .NavBar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .NavBar .HIMTI_LOGO {
+        display: flex;
+        width: 40x;
+        height: 45px;
         position: relative;
-        left: -150px;
-        width: 50px;
-        height: 55px;
-        z-index: 1000;
+        right: 60px;
     }
 
     .NavBar .links{
         display: none;
+        font-size: xx-small;
+        display: space-between;
     }
 
     .hamburger-menu {
@@ -45,14 +53,9 @@
         border-radius: 10px;
         transition: all 0.3s linear;
         position: relative;
-        left: 87px;
-        top: -5px;
+        left: 57px;
+        top: 0;
         transform-origin: 1px;
-    }
-
-    
-    .hamburger-menu {
-        display: flex;
     }
     
     .links {
