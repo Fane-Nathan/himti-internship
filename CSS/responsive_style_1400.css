@@ -142,8 +142,8 @@
   .events {
     background-color: #ffffff;
     padding: 100px 0;
-    margin-top: 90px;
-    height: 600px;
+    margin-top: 100px;
+    height: 670px;
   }
 
   .events ul {
@@ -162,7 +162,7 @@
     flex: 0 0 30%; /* This will make the li items take up 30% of the container's width */
     max-width: 30%; /* This will prevent the li items from growing larger than 30% of the container's width */
     box-sizing: border-box; /* This will include padding and border in the li's total width */
-    margin: 1em; /* This will add some space around the li items */
+    margin: 0.5em; /* This will add some space around the li items */
     padding: 1em; /* This will add some space inside the li items */
     text-align: center; /* This will center the text inside the li items */
     background-color: #92a1cd; /* This will set the background color of the li items */
@@ -183,10 +183,10 @@
     font-family: "Nunito", sans-serif;
     color: #000;
     text-align: center;
-    margin-top: 0;
+    margin-top: -90px;
     position: relative;
-    top: -50px;
-    font-size: 35px;
+    top: 50px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 500;
   }
@@ -265,26 +265,30 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 195px;
+    padding: 100px 195px 70px;
     margin-top: 100px;
   }
 
   .about h1 {
+    padding: 60px;
     position: relative;
-    right: 270px;
+    right: 300px;
+    top: -90px;
     font-family: "Nunito Sans", sans-serif;
-    font-size: 50px;
-    font-weight: 400;
+    font-size: 55px;
+    font-weight: 500;
     letter-spacing: 4px;
   }
 
   .about p {
     position: relative;
     right: 40px;
+    top: -97px;
     font-family: "Nunito Sans", sans-serif;
     font-size: 25px;
     text-align: left;
     width: 115%;
+    white-space: nowrap;
   }
 
   .logo-container {
@@ -310,6 +314,7 @@
     text-align: left;
   }
 
+  /* Contact Page style */
   .contact {
     background-color: #92a1cd;
     display: flex;
