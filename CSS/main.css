@@ -488,23 +488,71 @@ html {
 
 .footer .instagram {
   position: relative;
-  top: 90px;
-  right: 140px;
-  width: 30px;
+  top: 60px;
+  right: -50px;
+  width: 40px;
 }
 
 .footer .youtube {
   position: relative;
-  top: 90px;
-  right: 140px;
-  width: 30px;
+  top: 125px;
+  right: 90px;
+  width: 40px;
 }
 
 .footer .tiktok {
   position: relative;
-  top: 90px;
-  right: 140px;
-  width: 30px;
+  top: 190px;
+  right: 203px;
+  width: 40px;
+}
+
+.instagram_id a,
+.youtube_channel a,
+.tiktok_id a {
+  text-decoration: none; /* Add this line */
+  color: #ffffff; /* Change the text color to white */
+}
+
+.instagram_id a:hover, .youtube_channel a:hover, .tiktok_id a:hover {
+  color: #29013e; /* Change the text color to dark blue */
+}
+
+.instagram_id a:active, .youtube_channel a:active, .tiktok_id a:active {
+  color: rgba(255, 255, 255, 1);  
+}
+
+.instagram_id {
+  position: relative;
+  top: -5px;
+  right: -120px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  white-space: nowrap;
+}
+ 
+.youtube_channel {
+  position: relative;
+  top: 60px;
+  right: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.tiktok_id {
+  position: relative;
+  top: 125px;
+  right: 133px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  white-space: nowrap;
 }
 
 .copyright {
@@ -512,10 +560,10 @@ html {
   font-size: 20px;
   color: #ffffff;
   font-weight: 400;
-  position: relative; /* Change this line */
-  top: 250px; /* Change this line */
-  right: 65px; /* Change this line */
+  position: relative;
+  top: 250px;
+  right: 65px;
   white-space: nowrap;
-  width: 100%; /* Add this line */
-  text-align: center; /* Add this line */
+  width: 100%;
+  text-align: center;
 }
