@@ -259,6 +259,10 @@
     border-radius: 10px;
   }
 
+  .button-container {
+    display: none;
+  }
+
   /* about us style */
   .about {
     background-color: #92a1cd;
