@@ -131,7 +131,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 240vh;
         color: #ffffff;
         text-align: center;
         padding: 0 20px;
@@ -142,7 +142,7 @@
         font-weight: 400;
         position: relative;
         right: -3px;
-        top: 10rem;
+        top: -29rem;
         margin-bottom: 0;
         z-index: 1;
     }
@@ -150,6 +150,7 @@
     .card-list {
         display: flex;
         justify-content: center;
+        flex-direction: column;
         align-items: center;
         height: 100vh;
         color: #ffffff;
@@ -157,9 +158,10 @@
         padding: 0 20px;
         z-index: 2;
     }
-    
+
+/*  I want to create a carousel for the events section, but I'm not sure how to do it.   
     .card-list .card {
-        display: none; /* hide all cards */
+        display: ; 
         z-index: 2;
     }
 
@@ -186,9 +188,24 @@
     }
 
     #prevBtn img, #nextBtn img {
-        width: 30px; /* adjust as needed */
-        height: 30px; /* adjust as needed */
+        width: 30px; 
+        height: 30px;
         z-index: 2;
+    } */
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; 
+        width: 100vh;
+        color: #ffffff;
+        text-align: center;
+        padding: 0 20px;
+        z-index: 2;
+        position: relative;
+        top: 9rem;
     }
 
     .about {
