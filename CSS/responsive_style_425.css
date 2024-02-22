@@ -4,6 +4,7 @@
 @media screen and (max-width: 426px) {
     html {
         scroll-behavior: smooth;
+        width: 100%;
     }
 
     body {
@@ -11,6 +12,8 @@
         font-size: 30px;
         color: #ffffff;
         background-color: #92a1cd;
+        overflow-x: hidden;
+        width: 100%;
     }
     
     .NavBar {
@@ -284,18 +287,149 @@
 
     .contact .input-style {
         position: relative;
-        right: -10px;
-        top: 4rem;
+        right: 50px;
+        top: 0rem;
         text-align: right;
         margin-bottom: 10px;
         padding: 1px;
         z-index: 1;
         word-wrap: break-word;
-        font-size: 14px; /* adjust as needed to change the size of the text */
-        height: 30px; /* adjust as needed to change the height of the input */
+        font-size: 14px;
+        height: 30px;
+        width: 200px;
     }
 
-    .contact .submit-button {
-        font-size: 14px; /* adjust as needed to change the size of the button text */
-        padding: 5px 0px; /* adjust as needed to change the padding around the button text */
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 32px;
+        font-family: 'Nunito Sans', sans-serif;
     }
+
+    .contact-info .HTML_CSS {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        position: relative;
+        right: 10px;
+        top: -4rem;
+        margin-bottom: 0;
+        z-index: 1;
+    }
+
+    .contact-info .line {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20px;
+        width: 20px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        position: relative;
+        right: 10px;
+        top: -70px;
+        margin-bottom: 0;
+        z-index: 1;
+    }
+
+    .contact-info .line_id {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        position: relative;
+        right: -20px;
+        top: -105px;
+        margin-bottom: 0;
+        z-index: 1;
+    }
+
+    .contact-info .email_info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        position: relative;
+        right: -10rem;
+        top: -12rem;
+        margin-bottom: 0;
+        z-index: 1;
+    }
+
+    .contact-info .gmail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25px;
+        width: 25px;
+        position: relative;
+        right: -10rem;
+        top: -7.9rem;
+        margin-bottom: 0;
+        z-index: 1;
+    }
+
+    .contact-info .email {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        position: relative;
+        right: -12rem;
+        top: -12.36rem;
+        margin-bottom: 0;
+        z-index: 1;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 170px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        position: relative;
+        right: 0px;
+        top: 0rem;
+        margin-bottom: 0;
+        z-index: 1;
+    }
+
+    .footer .HIMTI_LOGO3 {
+        display: flex;
+        width: 90px;
+        position: relative;
+        right: -8rem;
+        top: 0rem;
+    }
+
+    .footer .binus_logo {
+        display: flex;
+        width: 100px;
+        position: relative;
+        right: -2rem;
+        top: 7rem;
+    }
+
+    .footer .copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 8px;
+        position: relative;
+        right: -5.4rem;
+        top: 13rem;
+        margin-bottom: 0;
+        z-index: 1;
+    }
+
+}
