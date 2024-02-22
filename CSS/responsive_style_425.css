@@ -74,40 +74,211 @@
     }
     
     .home h1 {
-        font-size: 6.5rem;
+        font-size: 56px;
         font-weight: 700;
         position: relative;
-        right: -430px;
-        top: -400px;
+        right: -10px;
+        top: -45rem;
         margin-bottom: 0;
+        z-index: 1;
     }
 
     .home p {
         transition: transform 0.3s;
         position: relative;
-        top: -340px;
-        right: -429px;
+        top: -44rem;
+        right: -8px;
         font-family: 'Nunito Sans', sans-serif;
-        font-size: 20px;
+        font-size: 16px;
         color: #ffffff;
         background-color: #405aa7;
-        padding: 21px 56px;
+        padding: 7px 36px;
         border-radius: 50px;
         display: inline-block;
+        max-width: 100%;
+        z-index: 2;
     }
 
     .person {
         position: relative;
-        top: 770px;
-        right: -850px;
-        padding: 0 20px;
+        top: 7rem;
+        right: -3rem;
+        padding: 0;
+        width: 230px;
     }
 
     .earth {
         position: relative;
-        top: -120px;
-        right: 40px;
+        top: 40rem;
+        right: 220px;
         text-align: center;
-        padding: 0 10px;
+        z-index: 0;
     }
-}
+
+    .rocket {
+        position: relative;
+        top: 20px;
+        right: -160px;
+        rotate: 30deg;
+        text-align: center;
+        transform: scaleX(1);
+        width: 300px;
+        z-index: 0;
+    }
+
+    .events {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #ffffff;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .events h1 {
+        font-size: 50px;
+        font-weight: 400;
+        position: relative;
+        right: -10px;
+        top: 10rem;
+        margin-bottom: 0;
+        z-index: 1;
+    }
+
+    .card-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #ffffff;
+        text-align: center;
+        padding: 0 20px;
+        z-index: 2;
+    }
+    
+    .card-list .card {
+        display: none; /* hide all cards */
+        z-index: 2;
+    }
+
+    .card-list .card.active {
+        display: block; /* show the active card */
+        z-index: 3;
+    }
+    
+    #prevBtn, #nextBtn {
+        position: absolute;
+        top: 170%; /* center vertically */
+        transform: translateY(-50%); /* offset the height of the button itself */
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    #prevBtn {
+        left: 10px; /* place the "Previous" button 10px from the left edge */
+    }
+
+    #nextBtn {
+        right: 10px; /* place the "Next" button 10px from the right edge */
+    }
+
+    #prevBtn img, #nextBtn img {
+        width: 30px; /* adjust as needed */
+        height: 30px; /* adjust as needed */
+        z-index: 2;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        color: #ffffff;
+        text-align: center;
+        padding: 0;
+    }
+
+    .about h1 {
+        font-size: 30px;
+        font-weight: 400;
+        position: relative;
+        right: 30px;
+        top: -18rem;
+        margin-bottom: 0;
+        z-index: 1;
+    }
+
+    .about p {
+        font-size: 13px;
+        position: relative;
+        right: 160px;
+        top: -21rem;
+        text-align: right;
+        margin-bottom: 10px;
+        padding-right: 10px;
+        z-index: 1;
+        word-wrap: break-word;
+    }
+
+    .about .HIMTI_LOGO2 {
+        display: flex;
+        width: 140px;
+        position: relative;
+        right: -57px;
+        top: 13rem;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        color: #ffffff;
+        text-align: center;
+        padding: 0;
+    }
+
+    .contact h1 {
+        font-size: 30px;
+        font-weight: 400;
+        position: relative;
+        right: -4px;
+        top: 4rem;
+        margin-bottom: 0;
+        z-index: 1;
+    }
+
+    .contact h2 {
+        font-size: 20px;
+        position: relative;
+        right: -10px;
+        top: 4rem;
+        text-align: right;
+        margin-bottom: 10px;
+        padding-right: 10px;
+        z-index: 1;
+        word-wrap: break-word;
+    }
+
+    .contact .input-style {
+        position: relative;
+        right: -10px;
+        top: 4rem;
+        text-align: right;
+        margin-bottom: 10px;
+        padding: 1px;
+        z-index: 1;
+        word-wrap: break-word;
+        font-size: 14px; /* adjust as needed to change the size of the text */
+        height: 30px; /* adjust as needed to change the height of the input */
+    }
+
+    .contact .submit-button {
+        font-size: 14px; /* adjust as needed to change the size of the button text */
+        padding: 5px 0px; /* adjust as needed to change the padding around the button text */
+    }
